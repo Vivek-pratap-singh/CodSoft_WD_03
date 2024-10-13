@@ -1,0 +1,76 @@
+# Calculator
+
+A simple and stylish web-based calculator built using HTML, CSS, and JavaScript. This calculator allows users to perform basic arithmetic operations like addition, subtraction, multiplication, and division.
+
+## Features
+
+- Basic arithmetic operations: addition, subtraction, multiplication, and division
+- Clear button to reset the calculator display
+- Delete button to remove the last character
+- Stylish design with hover effects on buttons
+
+## Project Structure
+
+The project consists of the following files:
+
+- `index.html`: The main HTML file that contains the structure of the calculator.
+- `styles.css`: The CSS file for styling the calculator interface.
+- `scripts.js`: The JavaScript file that adds functionality to the calculator.
+
+## How to Use
+
+1. Clone the repository or download the files.
+2. Open `index.html` in a web browser.
+3. Use the calculator buttons to perform basic arithmetic operations.
+
+## File Descriptions
+
+### 1. `index.html`
+
+The main HTML file that provides the layout of the calculator. It includes:
+- A text input field for displaying the results.
+- Buttons for digits (0-9), decimal, operators (`+`, `-`, `*`, `/`), clear, delete, and equals.
+
+### 2. `styles.css`
+
+This file contains the styling rules to make the calculator visually appealing. It includes:
+- Flexbox and grid styling for layout management.
+- Styling for different button states (normal, hover).
+- Colors for operators and special buttons (clear and equals).
+
+### 3. `scripts.js`
+
+This file contains the JavaScript logic for the calculator. The main functionalities include:
+- Appending clicked values to the display.
+- Clearing the display.
+- Deleting the last character.
+- Calculating the result using the `eval()` function.
+
+## Usage Instructions
+
+1. **Perform Calculations**: Click on the buttons to input numbers and operators. 
+2. **Clear Display**: Press the "C" button to reset the calculator.
+3. **Delete Last Character**: Use the "DEL" button to remove the last digit or operator.
+4. **Calculate Result**: Click the "=" button to display the result of the expression.
+
+## Screenshot
+
+![Calculator Screenshot](screenshot.png) *(Add a screenshot image of your calculator here.)*
+
+## Technologies Used
+
+- HTML
+- CSS
+- JavaScript
+
+## License
+
+This project is open-source and available under the MIT License. Feel free to use, modify, and distribute it as needed.
+
+## Acknowledgements
+
+This project was created as a basic web development exercise. It's a great starting point for beginners learning HTML, CSS, and JavaScript.
+
+## Author
+
+Created by [Your Name]. Feel free to reach out for any questions or contributions!
